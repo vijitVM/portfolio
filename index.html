@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <meta charset ="UTF-8">
+        <meta  http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content ="width = device-width, initial-scale =1.0">
+        <title>My Portfolio </title>
+        <!--Css file link page -->
+        <link rel="stylesheet" href="./css/style.css">
+        <!-- Icons will be a box -->
+        <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <link rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+
+<!-- Create a Simple NavBar-->
+<header>
+    <a href = "#" class="logo">VIJIT</a>
+    
+    <div class= "bx bx-menu" id="icon-menu"></div>
+    <ul class="navbar">
+        <li><a href ="#home">Home</a></li>
+        <li><a href ="#about">About</a></li>
+        <li><a href ="#skills">Skills</a></li>
+        <li><a href ="#projects">Projects</a></li>
+        <li><a href ="#contact">Contact</a></li>
+        <div>
+            <input type ="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="label">
+                <i class="bx bx-sun"></i>
+                <i class="bx bx-moon"></i>
+                <div class="ball"></div>
+            </label>
+        </div>
+       <!--<div class="bx bx-sun" id="darkmode"></div>--> 
+    </ul>   
+</header>
+
+<section class="home" id="home">
+<div class="social">
+    <a href="https://www.github.com/vijitVM" rel="noopener noreferrer" target="_blank">
+        <i class ='bx bxl-github'></i>
+        
+    </a>
+    <a href ="https://www.linkedin.com/in/vijit-mehrotra-018988130/ " rel="noopener noreferrer" target="_blank"> 
+        <i class='bx bxl-linkedin-square' ></i>
+    </a>
+    
+</div>
+<div class="home-img">
+    <img src ="img/vijit_profile.png" alt="" >
+</div>
+<div class="home-text">
+    <span>Hello Everyone, I'am</span>
+    <h3><img src = "https://readme-typing-svg.herokuapp.com?color=%234E86F7&size=22&multiline=true&height=60&width=280&lines=VIJIT+MEHROTRA;M.Sc.+in+Data+Analytics+"></h3>
+    <p>
+        <!--Write a small quote-->
+        <!--Simplicity is the soul of efficiency. <br>
+        Allways be positive and one day <br> you will have sucess.-->
+    </p>
+    <a href="#contact" class="btn">Contact Me</a>
+</div>
+
+<div class="scroll-down">
+    <a href="#about">
+        <i class='bx bx-mouse' ></i>  
+        <span>Scroll Down</span>
+        <i class='bx bx-down-arrow-alt' ></i>
+    </a>
+</div>
+
+</section>
+<!-- About yourself description and summary-->
+
+<section class="about" id="about">
+    <div class="heading">
+        <h3>About</h3>
+        <span>Introduction</span>
+    
+    </div>
+    <div class="about-container">
+        <div class="about-img">
+            <img src = "img/vijit_about.jpeg" alt ="">
+        </div>
+        <div class="about-text">
+            <p>
+                Completed my Masters in Data Analytics from the University of Hildesheim, Germany.
+
+I am currently enrolled in the Google Data Analytics Professional Certificate and also preparing for the Amazon AWS Cloud Practitioner Exam.
+
+I enjoy working on Data Science and Machine Learning problems. I am passionate about Cloud Computing and Data Engineering.
+
+Proficient in Python, SQL, Git and Github.
+
+I am looking for Full time/ Part-time /Paid or Unpaid jobs that can help me gain industry experience and boost my career in the field of Analytics, Data Science, Cloud Computing and Software Development.
+            </p>
+            <div class="information">
+                <div class="info-box">
+                    <i class='bx bxs-user'></i>
+                    <span>VIJIT MEHROTRA</span>
+                </div>
+                <div class="info-box">
+                    <i class='bx bxs-envelope'></i>
+                    <span>vijitmehrotra95@gmail</vijitmehrotra95@gmail></span>
+                </div>
+                <div class="info-box">
+                    <i class='bx bxs-phone'></i>
+                    <span>+49 162 5187910</span>
+                </div>
+            </div>
+            <a href="./Resume/VIJIT MEHROTRA_OCT__CV.docx.pdf" download class="btn">CV
+            <i class ="fa fa-download"></i></a>
+            <!--Basic Code to let button download the file-->
+
+        </div>
+    </div>
+</section>
+<!--Input the Skills-->
+<section class="skills" id="skills">
+<div class="heading">
+    <h3>Skills</h3>
+    <span>My Skills</span> 
+</div>
+
+<!--All of My Skills to be Displayed-->
+
+<!-- Tab links -->
+
+
+<div class="skills-container">
+    <div class ="heading" >
+        
+    <div class="bars">
+        <i class="fas fa-globe"></i>
+        <h3>LANGUAGES</h3>
+        <div class ="bars-box">
+            <h4>
+            <img alt ="Python" 
+            src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54&style=max-height:100%">
+            </h4>
+            <span>90%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar python-bar"></div>
+        </div>
+
+        <div class ="bars-box">
+            <h4>
+            <img alt ="R" 
+            src="https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white&style=max-height:100%">
+            </h4>
+            <span>85%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar r-bar"></div>
+        </div>
+
+        <div class ="bars-box">
+            <h4>
+            <img alt="MySQL"
+            src = "https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white&style=max-height:100%">
+            </h4>
+            <span>88%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar mysql-bar"></div>
+        </div>
+
+        <div class ="bars-box">
+            <h4> 
+            <img alt ="Excel"
+            src = "https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white&style=max-height:100%">    
+            </h4>
+            <span>86%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar excel-bar"></div>
+        </div>
+
+        <div class ="bars-box">
+            <h4> 
+            <img alt ="Javascript"
+            src = "https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E&style=max-height:100%">    
+            </h4>
+            <span>77%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar javascript-bar"></div>
+        </div>
+
+
+        <div class ="bars-box">
+            <h4> 
+            <img alt ="react"
+            src = "https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB&style=max-height:100%">    
+            </h4>
+            <span>73%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar react-bar"></div>
+        </div>
+
+        <div class ="bars-box">
+            <h4> 
+            <img alt ="HTML"
+            src = "https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white&style=max-height:100%">    
+            </h4>
+            <span>84%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar html-bar"></div>
+        </div>
+
+        <div class ="bars-box">
+            <h4> 
+            <img alt ="CSS"
+            src = "https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white&style=max-height:100%">    
+            </h4>
+            <span>85%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar css-bar"></div>
+        </div>
+
+        
+    </div>
+    </div>
+
+    <div class ="heading" >
+        
+    <div class="bars">
+        <i class="fas fa-code"></i>
+        <h3>IDE</h3>
+        <div class ="bars-box">
+            <h4>
+            <img alt ="Juypter" 
+            src="https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white&style=max-height:100%">
+            </h4>
+            <span>93%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar jupyter-bar"></div>
+        </div>
+
+        <div class ="bars-box">
+            <h4>
+            <img alt ="Spyder" 
+            src="https://img.shields.io/badge/Spyder-838485?style=for-the-badge&logo=spyder%20ide&logoColor=maroon&style=max-height:100%">
+            </h4>
+            <span>87%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar spyder-bar"></div>
+        </div>
+
+        <div class ="bars-box">
+            <h4>
+            <img alt ="Netbeans" 
+            src="https://img.shields.io/badge/NetBeansIDE-1B6AC6.svg?style=for-the-badge&logo=apache-netbeans-ide&logoColor=white&style=max-height:100%">
+            </h4>
+            <span>73%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar netbeans-bar"></div>
+        </div>
+
+
+        <div class ="bars-box">
+            <h4>
+            <img alt ="VisualStudio" 
+            src="https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white&style=max-height:100%">
+            </h4>
+            <span>75%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar visualstudio-bar"></div>
+        </div>
+
+    </div>
+    </div>
+
+    <div class ="heading" >
+        
+    
+    <div class="bars">
+        <i class="fas fa-code-branch"></i>
+        <h3>VERSION CONTROL</h3>
+        <div class ="bars-box">
+            <h4>
+            <img alt ="Git" 
+            src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white&style=max-height:100%">
+            </h4>
+            <span>74%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar git-bar"></div>
+        </div>
+
+        <div class ="bars-box">
+            <h4>
+            <img alt ="Github" 
+            src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white&style=max-height:100%">
+            </h4>
+            <span>83%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar github-bar"></div>
+        </div>
+
+    </div>
+    </div>
+
+    <div class ="heading" >
+    <div class="bars">
+        <i class="fas fa-chart-line"></i>
+        <h3>ML/DL</h3>
+        <div class ="bars-box">
+            <h4>
+            <img alt ="Numpy" 
+            src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white&style=max-height:100%">
+            </h4>
+            <span>81%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar numpy-bar"></div>
+        </div>
+
+        <div class ="bars-box">
+            <h4>
+            <img alt ="Pandas" 
+            src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white&style=max-height:100%">
+            </h4>
+            <span>78%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar pandas-bar"></div>
+        </div>
+
+        <div class ="bars-box">
+            <h4>
+            <img alt ="Pytorch" 
+            src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white&style=max-height:100%">
+            </h4>
+            <span>84%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar pytorch-bar"></div>
+        </div>
+
+        <div class ="bars-box">
+            <h4>
+            <img alt ="Scikit-learn" 
+            src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white&style=max-height:100%">
+            </h4>
+            <span>89%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar scikitlearn-bar"></div>
+        </div>
+
+        <div class ="bars-box">
+            <h4>
+            <img alt ="TensorFlow" 
+            src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white&style=max-height:100%">
+            </h4>
+            <span>73%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar TensorFlow-bar"></div>
+        </div>
+
+    </div>
+    </div>
+
+
+</div>
+
+</section>
+<!--Projects Section top show some of my projects that I worked -->
+
+<section class="projects" id="projects">
+    <div class="heading">
+        <h3>Projects</h3>
+        <span>My Projects</span> 
+    </div>
+
+    <div class="projects-container">
+        <div class="project-container ">
+            <img
+            src="./img/machine_learning.png"
+            alt="Machine Learning"
+            loading="lazy"
+            class="project-pic"
+        />
+        <h3 class="project-title">Machine Learning</h3>
+        <div class = "project-card">
+          <p class="project-details">
+            This project contains implemetation of different Machine Learning
+            Models that I had done during my Masters Degree.
+          </p>
+          <a href="https://github.com/vijitVM/Machine-Learning-" target="_blank" class="project-link">Check it Out</a>
+        </div>
+    </div>
+
+
+    <div class="project-container ">
+            <img
+            src="./img/NLP.jpg"
+            alt="Natural Language Processing"
+            loading="lazy"
+            class="project-pic"
+        />
+        <h3 class="project-title">Natural Language Processing</h3>
+        <div class = "project-card">
+          <p class="project-details">
+            This project contains implementation of different NLP Models 
+            used for text analysis that I had done during my Masters Degree.
+          </p>
+          <a href="https://github.com/vijitVM/NLP" target="_blank" class="project-link">Check it Out</a>
+        </div>
+    </div>
+
+    <div class="project-container ">
+            <img
+            src="./img/time_series.png"
+            alt="business-analytics"
+            loading="lazy"
+            class="project-pic"
+        />
+        <h3 class="project-title">Business Analytics</h3>
+        <div class = "project-card">
+          <p class="project-details">
+            This project contains implemetation of Time Series analysis problem
+            in which we had to forecast the next 3 months future dates. This was
+            done during my Masters Degree.
+          </p>
+          <a href="https://github.com/vijitVM/Machine-Learning-" target="_blank" class="project-link">Check it Out</a>
+        </div>
+    </div>
+
+    <div class="project-container ">
+        <img
+        src="./img/lending_club.png"
+        alt="lending-club"
+        loading="lazy"
+        class="project-pic"
+    />
+    <h3 class="project-title">Lending Club Loan Analysis</h3>
+    <div class = "project-card">
+      <p class="project-details">
+        This project contains the Lending Club loan Analysis where we had to predict
+        if a borrower will default the loan based on his credit history. 
+      </p>
+      <a href="https://github.com/vijitVM/Lending-Club-" target="_blank" class="project-link">Check it Out</a>
+    </div>
+    </div>
+</section>
+
+
+    
+
+<!--A simple Contact form for a usert to send emails to me -->
+
+<section class="contact" id="contact">
+
+    <div class="heading">
+        <h3>Contact</h3>
+        <span>Connect with Me</span>
+    </div>
+<div class = "contact-form">
+    <form action="https://formsubmit.co/vijitmehrotra95@gmail.com" class="form" id="myform" method="POST">
+        <!--Honeypot-->
+        <input type = "text" name="_honey" style="display:none;">
+        <!--remove the Captcha-->
+        <input type ="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="https://vijitvm.github.io/portfolio/success.html" >
+
+        <input type="text" placeholder="Name" class="name" name="Name">
+        <input type="email"  name="Email" id ="" placeholder="Email" class="email" required>
+        <input type="text" placeholder="Subject" class="subject" name ="Subject">
+        <textarea name ="Message" id ="" cols ="30" rows="10" placeholder="Message" class="message"></textarea>
+        <button type="submit" class ="contact-button">Send</button>
+    </form>
+</div>
+
+</section>
+
+<div class = "footer">
+    <h3>VIJIT</h3>
+    <div class="footer-social">
+        <a href="https://www.facebook.com/vijit.mehrotra.7/" rel="noopener noreferrer" target="_blank"><i class='bx bxl-facebook-square'></i></a>
+        <a href ="https://www.instagram.com/vijitmehrotra/" rel="noopener noreferrer" target="_blank"><i class='bx bxl-instagram'></i></a>
+        <a href ="https://twitter.com/DSpassion_Vijit" rel="noopener noreferrer" target="_blank"><i class='bx bxl-twitter'></i></a>
+        
+    </div>
+</div>
+
+    <div class="copyright">
+        <p>
+            &#169;  Copyright All Rights Reserved. 
+        </p>
+    </div>
+
+    <!--Javascript Link to the HTML File-->
+    <script src="main.js"></script>
+</body>
+</html>
