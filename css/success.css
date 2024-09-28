@@ -1,118 +1,55 @@
-/* success.css */
 
-/* Ensure consistency by importing the main style.css first */
-@import url('./style.css');
-
-/* Main Container */
-.success-card {
-    background-color: var(--background-color);
-    padding: 3rem 2rem;
-    border-radius: 1rem;
-    box-shadow: 0 4px 6px rgba(51, 51, 185, 0.3);
-    max-width: 500px;
-    margin: 10vh auto;
+body {
     text-align: center;
-    transition: background-color var(--transition-speed), color var(--transition-speed);
-}
-
-/* Icon Styles */
-.icon-container {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background: var(--primary-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto 2rem auto;
-    transition: background-color var(--transition-speed), transform var(--transition-speed);
-}
-
-.icon-container i {
-    color: #ffffff;
-    font-size: 50px;
-}
-
-/* Heading Styles */
-.success-card h1 {
-    font-size: var(--font-size-large);
-    color: var(--primary-color);
-    margin-bottom: 1rem;
-}
-
-/* Paragraph Styles */
-.success-card p {
-    font-size: var(--font-size-small);
-    color: var(--text-color);
-    margin-bottom: 2rem;
-    line-height: 1.5;
-}
-
-/* Button Styles */
-.success-card .btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    background: var(--primary-color);
-    color: #ffffff;
-    padding: 0.75rem 1.5rem;
+    padding: 40px 0;
+    background:rgb(240, 228, 228);
+  }
+    h1 {
+      color: #88B04B;
+      font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+      font-weight: 900;
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #404F5E;
+      font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+      font-size:20px;
+      margin: 0;
+    }
+  i {
+    color: #9ABC66;
+    font-size: 100px;
+    line-height: 200px;
+    margin-left:-15px;
+  }
+  .card {
+    background:rgb(240, 228, 228);
+    padding: 60px;
+    border-radius: 4px;
+    box-shadow: 0 2px 3px rgb(51, 51, 185);
+    display: inline-block;
+    margin: 0 auto;
+    
+  }
+  
+  .btn{
+    display:inline-block;
+    background: rgb(51, 51, 185);
+    color:aliceblue;
+    padding: 0.8rem 1rem;
     border-radius: 0.5rem;
-    font-size: 1rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    transition: background-color var(--transition-speed), transform var(--transition-speed);
+    cursor:pointer;
     text-decoration: none;
-}
-
-.success-card .btn:hover {
-    background: var(--hover-color);
-    transform: scale(1.05);
-}
-
-.success-card .btn i {
-    margin-left: 0.5rem;
-    transition: transform var(--transition-speed);
-}
-
-.success-card .btn:hover i {
-    transform: translateX(5px);
-}
-
-/* Responsive Design */
-@media (max-width: 768px) {
-    .success-card {
-        padding: 2rem 1.5rem;
-    }
-
-    .success-card h1 {
-        font-size: 2rem;
-    }
-
-    .success-card p {
-        font-size: 0.9rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .success-card {
-        padding: 1.5rem 1rem;
-    }
-
-    .success-card h1 {
-        font-size: 1.8rem;
-    }
-
-    .success-card p {
-        font-size: 0.85rem;
-    }
-
-    .icon-container {
-        width: 80px;
-        height: 80px;
-    }
-
-    .icon-container i {
-        font-size: 40px;
-    }
-}
+    margin-top: 2rem;
+  }
+  
+  .btn:hover{
+        background: rgb(51, 51, 185);
+        
+  }
+  
+  .btn:active { 
+      text-decoration: none; 
+  }
+  
